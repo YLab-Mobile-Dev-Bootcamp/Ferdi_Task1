@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="id.ferdinand.pelatihan_ylabs">
+   <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="pelatihan_ylabs"
+        android:label="Pokédex"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
